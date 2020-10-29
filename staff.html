@@ -1,16 +1,82 @@
-!DOCTYPE html> 
+<!DOCTYPE html> 
 <html lang="en"> 
 	<head> 
-		<title>Scumptious Catering  </title> 
+		<title>Staff </title> 
 		<meta charset="utf-8"> 
         
-		<style>
+<style>
+  .dropbtn {
+  background-color: deepskyblue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gainsboro;}  
+
             
-            
-		</style>
-	</head> 
+</style>
+</head> 
 <body> 
+ <div class="dropdown">
+  <button class="dropbtn">Home</button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+  </div>
+ 
+</div>  
+<div class="dropdown">
+  <button class="dropbtn">About Us</button>
+  <div class="dropdown-content">
+     <a href="aboutus.html">About Us</a>
+    <a href="staff.html">Staff</a>
+  </div>
+ 
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Contact</button>
+  <div class="dropdown-content">
+    <a href="contact.html">Contact</a>
+  </div>
+ 
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Gallery</button>
+  <div class="dropdown-content">
+    <a href="gallery.html">Gallery</a>
    
+  </div>
+ 
+</div>
+
+    
+
 
 </body> 
 </html> 
