@@ -1,14 +1,27 @@
- .dropbtn {
-  background-color: deepskyblue;
+ * { box-sizing: border-box; }
+body { 
+    background-image: url(white-marble-background.jpg);
+    margin: 0;
+     
+}
+.dropbtn {
+  background-color: lightskyblue;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 14px 80px;
+  font-size: 17px;
   border: none;
+  font color: rosybrown;
+  margin: 0;
+  
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  float: left;
+  
+    
+
 }
 
 .dropdown-content {
@@ -31,4 +44,9 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: gainsboro;}  
+.dropdown:hover .dropbtn {background-color: gainsboro;
+}  
+h1 {
+    background-color: lightblue;
+    
+}
