@@ -4,11 +4,14 @@
 <title>Home </title> 
 <meta charset="utf-8"> 
 <link rel="stylesheet" href="style.css">    
+<style>
+
+</style>
                 
 </head> 
 
 <body>
-
+<h1> Scrumptious Catering</h1>
 
 <div class="dropdown">
   <button class="dropbtn">Home</button>
@@ -41,9 +44,60 @@
   </div>
  
 </div>
-<div class="slideshow" data-autoplay="true">
-<img src="logo.PNG" alt="Logo" width="500" height="300">
-<img src="2020%20BONL%20Logo.png" alt= "BONL" width="500" height="300">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="logo.PNG"  width="800" height="400" class="center">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="2020%20BONL%20Logo.png"  width="800" height="400" class="center">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="GalleryPic1.png" width="800" height="400" class="center">
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+<p> At Scrumptious Catering we believe in offering high quality menu items that are freshly prepared with only the finest ingredients at an affordable price.  We also recognize the importance of offering individual attention to every customer and event  from the casual get-together to more formal or corporate gatherings.  Our experienced and professional staff is ready to assist you to make your event a successful one whether you prefer to custom-plan the menu yourself or let us handle the details from start to finish.  Our goal at Scrumptious Catering is to cater to your individual needs as well as your menu needs.  We can help you create your event in the way you decide it should be created.  Contact us and find out how simple it is to begin planning your important event today.</p>
+    
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
 
 </body> 
 </html> 
