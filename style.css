@@ -7,7 +7,8 @@ body {
 .dropbtn {
   background-color: #a8deed;
   color: white;
-  padding: 14px 80px;
+  padding: 13px 84px;
+  width: 100%
   font-size: 17px;
   border: none;
   font color: rosybrown;
@@ -63,6 +64,9 @@ h1{
     font-size: 4em;
     color: #a8deed;
     
+}
+ h2{margin-top:20px;
+  margin-bottom:10px;
 }
 p{
     margin-right: auto;
