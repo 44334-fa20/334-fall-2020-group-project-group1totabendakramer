@@ -7,11 +7,15 @@ body {
 .dropbtn {
   background-color: #a8deed;
   color: white;
-  padding: 14px 80px;
+  padding: 13px 77.4px;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
   font-size: 17px;
   border: none;
-  font color: rosybrown;
+  
   margin: 0;
+  
   
 }
 
@@ -19,9 +23,8 @@ body {
   position: relative;
   display: inline-block;
   float: left;
+ 
   
-    
-
 }
 
 .dropdown-content {
@@ -50,7 +53,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  max-width: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -65,13 +68,19 @@ h1{
     color: #a8deed;
     
 }
+ h2{margin-top:20px;
+  margin-bottom:10px;
+}
 p{
     margin-right: auto;
     margin-left: auto;
     text-align: auto;
-   
+    padding-bottom: 50px;
     color: #a8deed;
     width: 75%;
+    background-color: white;
+    border-style: double;
+   border-width: thick;
    
 }
 
