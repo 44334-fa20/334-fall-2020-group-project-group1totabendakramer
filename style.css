@@ -86,10 +86,20 @@
      max-width: 500px;
      padding-top: 50px;
      padding-bottom: 50px;
-     border-style: solid;
+     border-b: solid;
      border-color: white;
      background-color: #a8deed;
  }
+.center1{
+    
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    border-bottom: solid;
+    border-color: #a8deed;
+}
 
  h1 {
      text-align: center;
