@@ -95,7 +95,7 @@ footer{
      max-width: 900px;
      padding-top: 50px;
      padding-bottom: 50px;
-     border-color: white;
+     border-color: gray;
      background-color: #a8deed;
  }
 
@@ -130,17 +130,34 @@ footer{
  p {
      margin-right: auto;
      margin-left: auto;
-     text-align: auto;
+     text-align: center;
      padding-bottom: 50px;
-     color: #a8deed;
+     color: gray;
      width: 75%;
      background-color: white;
      border-style: double;
      border-width: thick;
+     border-color: #a8deed;
 
  }
 
- .mySlides {}
+ .about{
+     color: gray;
+     text-align: center;
+}
+.button {
+  background-color:#a8deed ;
+  text-align: center;
+  align-content: center;
+  color: white;
+  margin-left: 40px;
+}
+  
+  
+  
+  
+  
+
 
  logo {
      background-color: white;
