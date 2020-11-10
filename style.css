@@ -138,8 +138,22 @@ footer{
      border-style: double;
      border-width: thick;
      border-color: #a8deed;
+     
 
  }
+.extra{
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+     padding-bottom: 50px;
+     color: gray;
+     width: 75%;
+     background-color: white;
+     border-style: double;
+     border-width: thick;
+     
+    
+}
 
  .about{
      color: gray;
