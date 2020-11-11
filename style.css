@@ -9,6 +9,10 @@
      margin: 0;
  }
 
+@font-face {
+  font-family: Voga;
+  src: url(cdtype_-_voga_medium-webfont.woff2);
+}
  header {
 
      background-color: #a8deed;
@@ -124,7 +128,7 @@ footer{
  h1 {
      text-align: center;
 
-     font-family: cursive;
+     font-family: Voga;
 
      text-align: left;
      font-size: 4em;
