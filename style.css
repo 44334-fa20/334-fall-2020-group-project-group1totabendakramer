@@ -178,12 +178,6 @@ footer{
   margin-left: 40px;
 }
   
-  
-  
-  
-  
-
-
  logo {
      background-color: white;
  }
@@ -219,7 +213,7 @@ footer{
 
 /* Create four equal columns that floats next to each other */
 
-}
+
 
 /* Clear floats after rows */ 
 .row:after {
