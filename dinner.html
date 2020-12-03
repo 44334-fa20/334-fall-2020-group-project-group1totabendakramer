@@ -7,52 +7,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <style>
-* {
-  box-sizing: border-box;
-	border-bottom-color: #a8deed;
-}
-	.greyback {
-		background-color: #aaa;
-		padding: 10px;
-	}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 180px;
-  padding-bottom: 50p
-}
-.entcolumn {
-	 float: left;
-  width: 50%;
-  padding: 10px;
-  height: 350px;
-  padding-bottom: 50p
-	}
-.bufcolumn {
-	 float: left;
-  width: 50%;
-  padding: 10px;
-  height: 400px;
-  padding-bottom: 50p
-	}
-.smlcolumn {
-float: left;
-  width: 33%;
-  padding: 50px;
-  height: 200px;
-  padding-bottom: 50px;
-	text-align: center;
-	 
-	}
-	
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        * {
+            box-sizing: border-box;
+            border-bottom-color: #a8deed;
+        }
 
-</style>
+        .greyback {
+            background-color: #aaa;
+            padding: 10px;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 180px;
+            padding-bottom: 50p
+        }
+
+        .entcolumn {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 350px;
+            padding-bottom: 50p
+        }
+
+        .bufcolumn {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 400px;
+            padding-bottom: 50p
+        }
+
+        .smlcolumn {
+            float: left;
+            width: 33%;
+            padding: 50px;
+            height: 200px;
+            padding-bottom: 50px;
+            text-align: center;
+
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width: 600px) {
+            .smlcolumn {
+            float: left;
+            width: 33%;
+            padding: 50px;
+            height: 300px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+            .bufcolumn {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 450px;
+            padding-bottom: 50p
+        }
+            .entcolumn {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 450px;
+            padding-bottom: 50p
+        }
+            .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 250px;
+            padding-bottom: 50p
+        }
+
+    </style>
 </head>
 
 <body>
@@ -111,297 +146,322 @@ float: left;
     <br>
     <br>
 
- <div class="row">
-  <div class="column" style="background-color:#aaa;">	
-   <h3>Appetizers</h3>
-	  <mentxt>• Spinach & Artichoke Dip – A warm, creamy
-blend of chopped spinach, artichokes, and
-parmesan cheese, served with tortilla chips or
-pita bread.<br>
-• Trio of Dips – Get our three most popular
-dips all in one! Big Daddy’s Bacon and
-Gorgonzola Dip, Awesome Orange Pecan
-Dip, and Homemade Salsa. Served with
-Tortilla Chips, Crackers, and Honey Pretzels.
-</mentxt>
-  </div>
-  <div class="column" style="background-color:#aaa; border-color: #a8deed">
-   <mentxt>
-	   <br>
-• Cheese, Olive, & Pepperoni Kabobs –
-Assortment of green & black Olives,
-Colby-Jack Cheese, and Pepperoni
-speared with a party pick for easy serving.<br>
-• Fresh Veggie Tray – Assortment of fresh
-veggies and homemade ranch served in
-a bread bowl.<br>
-• Fresh Fruit Tray – Assortment of fresh fruits
-arranged beautifully around a pineapple
-crown.</mentxt>
-  </div>
-</div>
-	
-<div class="row">
-  <div class="entcolumn" style="background-color:#aaa;">	
-   <h3>Entrees</h3>
-	  <mentxt>
-• Parmesan Crusted Chicken – Parmesan crusted chicken breasts, cooked until golden brown
-and then drizzled with creamy alfredo sauce.<br>
-• Honey Mustard Mozzarella Chicken – Chicken breast smothered in Honey Dijon Mustard,
-topped with crispy bacon bits, and blanketed with Mozzarella cheese.<br>
-• Tomato Basil Chicken – Baked chicken breast cooked in a Sundried Tomato and Basil
-marinade.<br>
-• Really Gouda Chicken – Breaded chicken breast with melted gouda cheese covered in
-Vodka Tomato Cream Sauce.<br>
-• Brown Sugar Bourbon Pulled Chicken – Seasoned pulled chicken cooked in our own brown
-sugar bourbon barbecue sauce.<br>
-</mentxt>
-  </div>
-  <div class="entcolumn" style="background-color:#aaa; border-color: #a8deed">
-	  <h5>$14.95 per person -One Entrée & Two Sides </h5>
-   <mentxt>
-• Mighty Mini Meatloaves – Small, individual sized meatloaves covered in a sweet honey
-BBQ glaze.<br>
-• Italian Sausage Pasta with Vodka Tomato Cream Sauce – Italian Sausage and pasta tossed
-with a creamy tomato sauce.<br>
-• Baked White Fish - Light, flaky whitefish layered with lemon, crunchy breadcrumbs, Cheddar<br>
-and Parmesan cheeses. It's fish...but WAY more fun!<br>
-• BBQ Pulled Pork – Slow roasted and hand pulled pork.<br>
-• BBQ Brisket – Tender beef brisket slow cooked and topped with a smoky BBQ sauce. **<br>
-	**Costs an additional $2.00 per person & requires at least 48 hour’s notice.</mentxt>
-  </div>
-</div>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h3>Appetizers</h3>
+            <mentxt>• Spinach & Artichoke Dip – A warm, creamy
+                blend of chopped spinach, artichokes, and
+                parmesan cheese, served with tortilla chips or
+                pita bread.<br>
+                • Trio of Dips – Get our three most popular
+                dips all in one! Big Daddy’s Bacon and
+                Gorgonzola Dip, Awesome Orange Pecan
+                Dip, and Homemade Salsa. Served with
+                Tortilla Chips, Crackers, and Honey Pretzels.
+            </mentxt>
+        </div>
+        <div class="column" style="background-color:#aaa; border-color: #a8deed">
+            <mentxt>
+                <br>
+                • Cheese, Olive, & Pepperoni Kabobs –
+                Assortment of green & black Olives,
+                Colby-Jack Cheese, and Pepperoni
+                speared with a party pick for easy serving.<br>
+                • Fresh Veggie Tray – Assortment of fresh
+                veggies and homemade ranch served in
+                a bread bowl.<br>
+                • Fresh Fruit Tray – Assortment of fresh fruits
+                arranged beautifully around a pineapple
+                crown.
+            </mentxt>
+        </div>
+    </div>
 
-	
-<div class="row">
-  <div class="bufcolumn" style="background-color:#aaa;">	
-   <h3>Buffet Dinner Options</h3>
-	  <h4>Entrees</h4>
-	  <mentxt>
-choose two <br>
-• Parmesan Crusted Chicken<br>
-• Honey Mustard Mozzarella Chicken<br>
-• Tomato Basil Chicken<br>
-• Honey Curry Chicken<br>
-• Chicken Tetrazzini<br>
-• Mighty Mini Meatloaves<br>
-• Italian Sausage Pasta w/ Vodka Tomato
-Cream Sauce<br>
-• Baked White Fish<br>
-• Cheese Ravioli<br>
-• BBQ Pulled Pork<br>
-• BBQ Brisket**<br>
-• Sliced Beef Tenderloin**<br>
-**Costs an additional $2.00 per person & requires 48 hour's notice.
-</mentxt>
-  </div>
-  <div class="bufcolumn" style="background-color:#aaa; border-color: #a8deed">
-	  <h5>$16.95 per person All-inclusive price</h5>
-	  <h4>Side Dishes</h4>
-   <mentxt>
-• World’s Best Mashed Potatoes<br>
-• Roasted Red Potatoes<br>
-• Roasted Baby Bakers<br>
-• Potato Salad<br>
-• Honey Glazed Carrots<br>
-• Italian Green Beans<br>
-• Old Fashioned Green Beans<br>
-• Southern Cream Cheese Corn<br>
-• Santa Fe CornL<br>
-• Roasted Veggies<br>
-• Rice Pilaf<br>
-• Mac & Cheese<br>
-• Pasta Salad<br>
-• Baked Beans​<br></mentxt>
-  </div>
-</div>
- <div class="greyback">
-	<h2>Fiesta Bar</h2>
-	<extxt>Includes: Tortilla Chips, Homemade Salsa, Shredded Cheese, Shredded Lettuce, Diced Tomatoes, Sour Cream, and Green Onions.</extxt>
-	 <h4><center>One Entrée – One Meat – Two Sides</center></h4><br>
-	 <extxt><center>Drop off: $13.95 pp Staffed: $16.95 pp</center></extxt><br>
-	 <h4><center>Two Entrées – Two Meats – Two Sides</center></h4><br>
-	 <extxt><center>Drop off: $14.95 pp Staffed: $17.95 pp</center></extxt><br>
-<div class="row">
-  <div class="smlcolumn" style="background-color:#aaa;">	
-	  <h4>Entrees</h4>
-	  <mentxt>
-• Soft Tacos<br>
-• Hard Tacos<br>
-• Nachos w/ Queso<br>
-• Longhorn Burritos<br>
-• Bean Burritos<br>
-• Enchilada Casserole
-</mentxt>
-  </div>
-  <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
-	  <h4>Meats</h4>
-   <mentxt>
-• Beef<br>
-• Chicken<br>
-• Pulled Pork
-</mentxt>
-  </div>
-  <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
-	  <h4>Sides</h4>
-   <mentxt>
-• Santa Fe Corn<br>
-• Spanish Rice<br>
-• Refried Beans
-</mentxt>
-  </div>
-</div>
-	<br><br>
-	<extxt>*Add Sopapilla Cheesecake Bars for $2.00 pp*</extxt>
-	<br>
-<extxt>**Parties of 50 people or more will require staff and have an 18% gratuity added to total. *Based on party size heat racks with fuel may be added to total.</extxt>	
-	 
-	 </div>
-	 
- <div class="greyback">
-	<h2>Pasta Bar</h2>
-	<extxt>Includes: Baby Green Salad topped with Dried Cranberries, Candied Walnuts, & Gorgonzola Cheese;with Homemade Ranch and Raspberry Vinaigrette; and assorted Dinner Rolls.</extxt>
-	 <h4><center>One Pasta – One Sauce – One Topping</center></h4><br>
-	 <extxt><center>Drop off: $13.95 pp Staffed: $16.95 pp</center></extxt><br>
-	 <h4><center>Two Pastas – Two Sauces – Two Toppings</center></h4><br>
-	 <extxt><center>Drop off: $14.95 pp Staffed: $17.95 pp</center></extxt><br>
-	 <h4><center>Homemade Lasagna & Choice of Vegetable</center></h4><br>
-	 <extxt><center>Drop off: $15.95 pp Staffed: $18.95 pp</center></extxt><br>
-<div class="row">
-  <div class="smlcolumn" style="background-color:#aaa;">	
-	  <h4>Pasta</h4>
-	  <mentxt>
-• Spaghetti<br>
-• Bow Tie<br>
-• Fettuccini<br>
-• Penne
-</mentxt>
-  </div>
-  <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
-	  <h4>Sauces</h4>
-   <mentxt>
-• Marinara<br>
-• Vodka TomatoCream<br>
-• Parmesan Alfredo
-</mentxt>
-  </div>
-  <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
-	  <h4>Toppings</h4>
-   <mentxt>
-• Meatballs<br>
-• Italian Sausage<Br>
-• Grilled Chicken<br>
-• Meat Sauce<br>
-• Roasted Veggies
-
-</mentxt>
-  </div>
-</div>
-	<br>
-<extxt>**Parties of 50 people or more will require staff and have an 18% gratuity added to total. *Based on party size heat racks with fuel may be added to total.</extxt>	
-	 
-	 </div>
-	 
-	<div class="row">
-  <div class="entcolumn" style="background-color:#aaa;">	
-	  <h3>Desserts</h3>
-	<h5>Full Size Options</h5>  
-	   <mentxt>
-• Double Chocolate Cake – Chocolate
-cake covered with chocolate
-frosting.
-</mentxt>
-	   <h5>$2.95 per person – 1 piece per person. </h5>
-  </div>
-  <div class="entcolumn" style="background-color:#aaa; border-color: #a8deed">
-	<br><br>  <h5>Bite Size Options </h5>
-   <mentxt>
-	   • Assorted Bite Sized Desserts – An assortment
-of different bite sized desserts that we have
-on hand. Usually includes several different
-types of cookies, peanut butter bars,
-brownies, etc.
-</mentxt>
-	  <h5>$2.00 per person – 2-3 pieces per person.
-</h5>
-  </div>
-</div>
-	 
-	<div class="row">
-  <div class="entcolumn" style="background-color:#aaa;">	
-	  <h3>Beverages</h3>
-	<h5>Water</h5>  
-	   <mentxt>
-Free with staffed events.
-</mentxt>
-	   <h5>Canned Regular or Diet Sodas </h5>
-	  <mentxt>$1.25/Can</mentxt>
-  </div>
-  <div class="entcolumn" style="background-color:#aaa; border-color: #a8deed">
-	<br><br>  <h5>Additional Beverages </h5>
-   <mentxt>
-• Fresh Brewed Iced Tea<br>
-• Homestyle Lemonade<br>
-• Pink Lemonade<br>
-• Fresh Brewed Coffee
-(Regular or Decaf)
-</mentxt>
-	  <h5>$15 per gallon / $1.50 per person </h5>
-	  <mentxt>One gallon serves approximately
-15 people.</mentxt>
-  </div>
-</div>
- <div class="greyback">
-<h3>All Inclusive Pricing Includes:</h3>
-	 <mentxt>
-• Complete setup of food.<br>
-• All Appropriate serving utensils.<br>
-• Disposable flatware, plates, and dinner napkins.<br>
-• Includes delivery to anywhere in the KC metro area.<br>
-• Plastic cups for beverages & water if needed.</mentxt>
-	
-<h3>Additional Terms</h3>
-	 <mentxt>
-	 Financial agreements are as follows:<br>
-• All events require a deposit of $300.00 to save the date.<br>
-• 50% of the balance is due 30 days before event along with guest counts
-& menu’s.<br>
-• Full balance is due on the day of the event or at any time prior to the
-event date.<br>
-• Scrumptious Catering gladly accepts payment in the form of cash, check,
-Visa, MasterCard, Amex, & Discover.<br><br>
-Cancellations of the event policy:<br>
-• Orders cancelled 30 days prior to the event will receive their deposit
-back.<br>
-• Orders cancelled less then 30 days prior to the event will result in a 50%
-charge to the client.<br>
-• Orders cancelled within 48 hours prior to the event will result in a 100%
-charge to the client.<br><br>
-Please review and let me know your thoughts. If you have any questions,
-comments or concerns, please do not hesitate to call or email. Thank you in
-advance for allowing us to submit a proposal. If Scrumptious Catering is your
-chosen caterer, you will not be disappointed as we strive to make every event
-“Scrumptious”!
-Sincerely,
-Marcie Hanson
-Triple S’s LLC
-Phone: 816.210.0661</mentxt>
-	 
-	 </div>
-     </div>
-    
-   <footer>
-
-            <h4>Scrumptious Catering</h4>
+    <div class="row">
+        <div class="entcolumn" style="background-color:#aaa;">
+            <h3>Entrees</h3>
+            <mentxt>
+                • Parmesan Crusted Chicken – Parmesan crusted chicken breasts, cooked until golden brown
+                and then drizzled with creamy alfredo sauce.<br>
+                • Honey Mustard Mozzarella Chicken – Chicken breast smothered in Honey Dijon Mustard,
+                topped with crispy bacon bits, and blanketed with Mozzarella cheese.<br>
+                • Tomato Basil Chicken – Baked chicken breast cooked in a Sundried Tomato and Basil
+                marinade.<br>
+                • Really Gouda Chicken – Breaded chicken breast with melted gouda cheese covered in
+                Vodka Tomato Cream Sauce.<br>
+                • Brown Sugar Bourbon Pulled Chicken – Seasoned pulled chicken cooked in our own brown
+                sugar bourbon barbecue sauce.<br>
+            </mentxt>
+        </div>
+        <div class="entcolumn" style="background-color:#aaa; border-color: #a8deed">
+            <h3>$14.95 per person -One Entrée & Two Sides </h3>
+            <mentxt>
+                • Mighty Mini Meatloaves – Small, individual sized meatloaves covered in a sweet honey
+                BBQ glaze.<br>
+                • Italian Sausage Pasta with Vodka Tomato Cream Sauce – Italian Sausage and pasta tossed
+                with a creamy tomato sauce.<br>
+                • Baked White Fish - Light, flaky whitefish layered with lemon, crunchy breadcrumbs, Cheddar<br>
+                and Parmesan cheeses. It's fish...but WAY more fun!<br>
+                • BBQ Pulled Pork – Slow roasted and hand pulled pork.<br>
+                • BBQ Brisket – Tender beef brisket slow cooked and topped with a smoky BBQ sauce. **<br>
+                **Costs an additional $2.00 per person & requires at least 48 hour’s notice.</mentxt>
+        </div>
+    </div>
 
 
-            <a href="mailto:CateringKC@me.com"><img src="email.jpg.png" alt="mailto:CateringKC@me.com" width="100" height="75">
-            </a>
-            <a href="tel:8162100661"><img src="phone.png" alt="(816)210-0661" width="100" height="75">
-            </a>
-            <a href="https://www.facebook.com/ScrumptiousCatering/"><img src="instagram.png" alt="instagram.com" width="100" height="75"></a>
-            <a href="https://www.instagram.com/cateringkc/"><img src="facebook.png" alt="facebook.com" width="100" height="75"></a>
-        </footer>
+    <div class="row">
+        <div class="bufcolumn" style="background-color:#aaa;">
+            <h3>Buffet Dinner Options</h3>
+            <h4>Entrees</h4>
+            <mentxt>
+                choose two <br>
+                • Parmesan Crusted Chicken<br>
+                • Honey Mustard Mozzarella Chicken<br>
+                • Tomato Basil Chicken<br>
+                • Honey Curry Chicken<br>
+                • Chicken Tetrazzini<br>
+                • Mighty Mini Meatloaves<br>
+                • Italian Sausage Pasta w/ Vodka Tomato
+                Cream Sauce<br>
+                • Baked White Fish<br>
+                • Cheese Ravioli<br>
+                • BBQ Pulled Pork<br>
+                • BBQ Brisket**<br>
+                • Sliced Beef Tenderloin**<br>
+                **Costs an additional $2.00 per person & requires 48 hour's notice.
+            </mentxt>
+        </div>
+        <div class="bufcolumn" style="background-color:#aaa; border-color: #a8deed">
+            <h4>$16.95 per person All-inclusive price</h4>
+            <h3>Side Dishes</h3>
+            <mentxt>
+                • World’s Best Mashed Potatoes<br>
+                • Roasted Red Potatoes<br>
+                • Roasted Baby Bakers<br>
+                • Potato Salad<br>
+                • Honey Glazed Carrots<br>
+                • Italian Green Beans<br>
+                • Old Fashioned Green Beans<br>
+                • Southern Cream Cheese Corn<br>
+                • Santa Fe CornL<br>
+                • Roasted Veggies<br>
+                • Rice Pilaf<br>
+                • Mac & Cheese<br>
+                • Pasta Salad<br>
+                • Baked Beans​<br></mentxt>
+        </div>
+    </div>
+    <div class="greyback">
+        <h2>Fiesta Bar</h2>
+        <extxt>Includes: Tortilla Chips, Homemade Salsa, Shredded Cheese, Shredded Lettuce, Diced Tomatoes, Sour Cream, and Green Onions.</extxt>
+        <h4>
+            <center>One Entrée – One Meat – Two Sides</center>
+        </h4><br>
+        <extxt>
+            <center>Drop off: $13.95 pp Staffed: $16.95 pp</center>
+        </extxt><br>
+        <h4>
+            <center>Two Entrées – Two Meats – Two Sides</center>
+        </h4><br>
+        <extxt>
+            <center>Drop off: $14.95 pp Staffed: $17.95 pp</center>
+        </extxt><br>
+        <div class="row">
+            <div class="smlcolumn" style="background-color:#aaa;">
+                <h4>Entrees</h4>
+                <mentxt>
+                    • Soft Tacos<br>
+                    • Hard Tacos<br>
+                    • Nachos w/ Queso<br>
+                    • Longhorn Burritos<br>
+                    • Bean Burritos<br>
+                    • Enchilada Casserole
+                </mentxt>
+            </div>
+            <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
+                <h4>Meats</h4>
+                <mentxt>
+                    • Beef<br>
+                    • Chicken<br>
+                    • Pulled Pork
+                </mentxt>
+            </div>
+            <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
+                <h4>Sides</h4>
+                <mentxt>
+                    • Santa Fe Corn<br>
+                    • Spanish Rice<br>
+                    • Refried Beans
+                </mentxt>
+            </div>
+        </div>
+        <br><br><br><br>
+        <extxt>*Add Sopapilla Cheesecake Bars for $2.00 pp*</extxt>
+        <br>
+        <extxt>**Parties of 50 people or more will require staff and have an 18% gratuity added to total. *Based on party size heat racks with fuel may be added to total.</extxt>
+
+    </div>
+
+    <div class="greyback">
+        <h3>Pasta Bar</h3>
+        <extxt>Includes: Baby Green Salad topped with Dried Cranberries, Candied Walnuts, & Gorgonzola Cheese;with Homemade Ranch and Raspberry Vinaigrette; and assorted Dinner Rolls.</extxt>
+        <h4>
+            <center>One Pasta – One Sauce – One Topping</center>
+        </h4>
+        <extxt>
+            <center>Drop off: $13.95 pp Staffed: $16.95 pp</center>
+        </extxt>
+        <h4>
+            <center>Two Pastas – Two Sauces – Two Toppings</center>
+        </h4>
+        <extxt>
+            <center>Drop off: $14.95 pp Staffed: $17.95 pp</center>
+        </extxt>
+        <h4>
+            <center>Homemade Lasagna & Choice of Vegetable</center>
+        </h4><br>
+        <extxt>
+            <center>Drop off: $15.95 pp Staffed: $18.95 pp</center>
+        </extxt>
+        <div class="row">
+            <div class="smlcolumn" style="background-color:#aaa;">
+                <h4>Pasta</h4>
+                <mentxt>
+                    • Spaghetti<br>
+                    • Bow Tie<br>
+                    • Fettuccini<br>
+                    • Penne
+                </mentxt>
+            </div>
+            <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
+                <h4>Sauces</h4>
+                <mentxt>
+                    • Marinara<br>
+                    • Vodka TomatoCream<br>
+                    • Parmesan Alfredo
+                </mentxt>
+            </div>
+            <div class="smlcolumn" style="background-color:#aaa; border-color: #a8deed">
+                <h4>Toppings</h4>
+                <mentxt>
+                    • Meatballs<br>
+                    • Italian Sausage<Br>
+                    • Grilled Chicken<br>
+                    • Meat Sauce<br>
+                    • Roasted Veggies
+                    </Br>
+                </mentxt>
+               
+            
+            </div>
+        </div>
+        <br>
+        <extxt>**Parties of 50 people or more will require staff and have an 18% gratuity added to total. *Based on party size heat racks with fuel may be added to total.</extxt>
+
+    </div>
+
+    <div class="row">
+        <div class="entcolumn" style="background-color:#aaa;">
+            <h3>Desserts</h3>
+            <h5>Full Size Options</h5>
+            <mentxt>
+                • Double Chocolate Cake – Chocolate
+                cake covered with chocolate
+                frosting.
+            </mentxt>
+            <h5>$2.95 per person – 1 piece per person. </h5>
+        </div>
+        <div class="entcolumn" style="background-color:#aaa; border-color: #a8deed">
+            <br><br>
+            <h5>Bite Size Options </h5>
+            <mentxt>
+                • Assorted Bite Sized Desserts – An assortment
+                of different bite sized desserts that we have
+                on hand. Usually includes several different
+                types of cookies, peanut butter bars,
+                brownies, etc.
+            </mentxt>
+            <h5>$2.00 per person – 2-3 pieces per person.
+            </h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="entcolumn" style="background-color:#aaa;">
+            <h3>Beverages</h3>
+            <h5>Water</h5>
+            <mentxt>
+                Free with staffed events.
+            </mentxt>
+            <h5>Canned Regular or Diet Sodas </h5>
+            <mentxt>$1.25/Can</mentxt>
+        </div>
+        <div class="entcolumn" style="background-color:#aaa; border-color: #a8deed">
+            <br><br>
+            <h5>Additional Beverages </h5>
+            <mentxt>
+                • Fresh Brewed Iced Tea<br>
+                • Homestyle Lemonade<br>
+                • Pink Lemonade<br>
+                • Fresh Brewed Coffee
+                (Regular or Decaf)
+            </mentxt>
+            <h5>$15 per gallon / $1.50 per person </h5>
+            <mentxt>One gallon serves approximately
+                15 people.</mentxt>
+        </div>
+    </div>
+    <div class="greyback">
+        <h3>All Inclusive Pricing Includes:</h3>
+        <mentxt>
+            • Complete setup of food.<br>
+            • All Appropriate serving utensils.<br>
+            • Disposable flatware, plates, and dinner napkins.<br>
+            • Includes delivery to anywhere in the KC metro area.<br>
+            • Plastic cups for beverages & water if needed.</mentxt>
+
+        <h3>Additional Terms</h3>
+        <mentxt>
+            Financial agreements are as follows:<br>
+            • All events require a deposit of $300.00 to save the date.<br>
+            • 50% of the balance is due 30 days before event along with guest counts
+            & menu’s.<br>
+            • Full balance is due on the day of the event or at any time prior to the
+            event date.<br>
+            • Scrumptious Catering gladly accepts payment in the form of cash, check,
+            Visa, MasterCard, Amex, & Discover.<br><br>
+            Cancellations of the event policy:<br>
+            • Orders cancelled 30 days prior to the event will receive their deposit
+            back.<br>
+            • Orders cancelled less then 30 days prior to the event will result in a 50%
+            charge to the client.<br>
+            • Orders cancelled within 48 hours prior to the event will result in a 100%
+            charge to the client.<br><br>
+            Please review and let me know your thoughts. If you have any questions,
+            comments or concerns, please do not hesitate to call or email. Thank you in
+            advance for allowing us to submit a proposal. If Scrumptious Catering is your
+            chosen caterer, you will not be disappointed as we strive to make every event
+            “Scrumptious”!
+            </mentxt>
+
+    </div>
+    </div>
+
+
+    <footer>
+
+        <h4>Scrumptious Catering</h4>
+
+
+        <a href="mailto:CateringKC@me.com"><img src="email.jpg.png" alt="mailto:CateringKC@me.com" width="100" height="75">
+        </a>
+        <a href="tel:8162100661"><img src="phone.png" alt="(816)210-0661" width="100" height="75">
+        </a>
+        <a href="https://www.instagram.com/cateringkc/"><img src="instagram.png" alt="instagram.com" width="100" height="75"></a>
+        <a href="https://www.facebook.com/ScrumptiousCatering/"><img src="facebook.png" alt="facebook.com" width="100" height="75"></a>
+    </footer>
+</html>
 </body>
+
 
 </html>
