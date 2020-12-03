@@ -155,7 +155,7 @@
      padding-bottom: 50px;
      color: black;
      width: 75%;
-     background-color: white;
+     background-color: #aaa;
      border-style: double;
      border-width: thick;
      border-color: #a8deed;
@@ -204,8 +204,13 @@
      width: 180px;
      align-content: center;
      margin-left: 130px;
+     background-color: #aaa;
  }
-
+form{
+    background-color: #aaa;
+    border: solid;
+    border-color: #a8deed;
+}
 
  div.staff img {
      width: 100%;
@@ -342,6 +347,7 @@
      flex: 50%;
      margin: 20px;
      justify-content: center;
+     
      
 
  }
